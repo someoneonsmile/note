@@ -68,6 +68,6 @@
 ```
 ```
 使用:
- <#include "/common/paginateAjax.html" />
-	<@paginateAjax currentPage=pageData.getCurrent() totalPage=pageData.getPages() actionUrl="/team/teamInfo/append/" urlParas="?clinicName1=${clinicName1!}&userName1=${userName1!}"  />
+<#include "/common/paginateAjax.html" />
+<@paginateAjax currentPage=pageData.getCurrent() totalPage=pageData.getPages() actionUrl="/team/teamInfo/append/" urlParas="?clinicName1=${clinicName1!}&userName1=${userName1!}"  />
 ```
