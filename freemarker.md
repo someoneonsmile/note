@@ -9,7 +9,7 @@
 
 ```
 //: paginateAjax.html
-// 分页模板
+//  分页模板
 <#macro paginateAjax currentPage totalPage actionUrl pageNum=5 container="tbodyListChoice" urlParas="">
 	
 	<#if (totalPage <= 0) || (currentPage > totalPage)><#return></#if>
